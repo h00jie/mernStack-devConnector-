@@ -1,0 +1,31 @@
+{
+  "name": "merntutorial",
+  "version": "1.0.0",
+  "description": " social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm start",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix"
+  },
+  "author": "h00jie",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^5.2.0",
+    "config": "^3.3.1",
+    "express-validator": "^6.6.0",
+    "gravatar": "^1.8.1",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.25",
+    "nodemon": "^2.0.4",
+    "npm": "^6.14.6",
+    "request": "^2.88.2"
+  }
+}
