@@ -13,7 +13,7 @@
   "author": "h00jie",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "bcryptjs": "^2.4.3",
     "config": "^3.3.1",
     "express-validator": "^6.6.0",
